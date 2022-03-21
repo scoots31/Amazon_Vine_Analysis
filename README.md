@@ -36,12 +36,17 @@ Lastly we exported the Vine table data out as a csv file to import into Juypter 
 ### Paid Vine Program
 
 33 total reviews
+
 15 5-star reviews
+
 45.5% of vine reviews were 5-star
-Unpaid reviews
+
+### Unpaid reviews
 
 45,388 total reviews
+
 23,733 5-star reviews
+
 52.3% of unpaid reviews were 5-star
 
 
