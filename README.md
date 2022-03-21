@@ -44,6 +44,7 @@ Unpaid reviews
 23,733 5-star reviews
 52.3% of unpaid reviews were 5-star
 
+
 ## Deliverable 3
 
 While the percentages of five star reviews appear to be similar, the volume of the non paid Vine program is much larger than paid subscribers. Based on these results it allows the conclusion that customers who are part of the paid program do not feel a positive bias leaving good reviews. Even though there is a slight 0.2 difference in the average review-star rating in favor of the Vine program it does not seem as popular in this product category. Further analysis by executing an NLP sentiment analysis could give insight on key words used in reviews to determine if the Vine reviews were more detailed and effusive in praise of the products.
