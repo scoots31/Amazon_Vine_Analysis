@@ -1,7 +1,7 @@
 # Amazon Vine Analysis
 
 ## Overview
-
+Using US Apparel product reviews from Amazon, the goal was to analyze if it would be beneficial to subscribe to a Vine program if we were to sell similar products through their platform. The vine review program is an incentive model in which customers are gifted free products when they submit good reviews. We used PySpark to extract, transform, and load (ETL) the data to a AWS RDS that was created and connected to a PostgreSQL server allowing the ability to  query and extract the tables of data needed to perform an analysis.
 
 ## Deliverable 1
 The first step in the process was to extract the data from the Apparel dataset and create a dataframe within Google Collab Notebook.
@@ -28,10 +28,22 @@ With use of AWS datacloud, transferred the data into a postgres DB locally.
 
 ![Screen Shot 2022-03-15 at 9 21 47 PM](https://user-images.githubusercontent.com/93485455/159191460-dbc4170c-4df8-4468-8345-dfc2fc8535f3.png)
 
-Lastly we exported the data out as a csv file to import into Juypter Notebook.
+Lastly we exported the Vine table data out as a csv file to import into Juypter Notebook.
 
 
 ## Deliverable 2
 
+### Paid Vine Program
+
+33 total reviews
+15 5-star reviews
+45.5% of vine reviews were 5-star
+Unpaid reviews
+
+45,388 total reviews
+23,733 5-star reviews
+52.3% of unpaid reviews were 5-star
 
 ## Deliverable 3
+
+While the percentages of five star reviews appear to be similar, the volume of the non paid Vine program is much larger than paid subscribers. Based on these results it allows the conclusion that customers who are part of the paid program do not feel a positive bias leaving good reviews. Even though there is a slight 0.2 difference in the average review-star rating in favor of the Vine program it does not seem as popular in this product category. Further analysis by executing an NLP sentiment analysis could give insight on key words used in reviews to determine if the Vine reviews were more detailed and effusive in praise of the products.
